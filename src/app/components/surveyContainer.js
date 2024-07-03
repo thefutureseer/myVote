@@ -9,6 +9,7 @@ const SurveyContainer = () => {
   survey.onComplete.add(async function (sender, options) {
     options.showSaveInProgress();
     options.showSaveSuccess();
+    sender.completedHtml = "Thank you for your vote! The winner is " + "*winner*" + ".";
     const finishedSurvey = sender.data;
 try {
   const response = await fetch('/api/results', {
