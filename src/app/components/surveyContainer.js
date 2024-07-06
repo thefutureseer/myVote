@@ -7,6 +7,7 @@ import voteJson from "../../data/voteScript";
 const SurveyContainer = () => {
   const survey = new Model(voteJson);
   survey.onComplete.add(async function (sender, options) {
+    
     options.showSaveInProgress();
     options.showSaveSuccess();
     sender.completedHtml = "Thank you for your vote! The winner is " + "*winner*" + ".";

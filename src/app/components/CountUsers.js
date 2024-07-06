@@ -15,7 +15,7 @@ const countIdKeys = (inputJson) => {
       highschoolNo++
     }
   };
-  majorityVote = highschoolYes > highschoolNo ? 'If I were a vampire Id like to attend highschool for eternity':'As a vampire Id not attend highschool forever';
+  // majorityVote = highschoolYes > highschoolNo ? `yes: ${highschoolYes}`:`no ${highschoolNo}`;
   return {idCount, majorityVote};
 };
 module.exports = countIdKeys;

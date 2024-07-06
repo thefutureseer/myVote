@@ -38,7 +38,7 @@ const ResultsList = ({ results }) => {
       <div style={{margin: '3px'}}>
       <h2>Total Vote Results</h2>
       <p>Votes taken: {idCount}</p>
-      <p >Majority vote example: {majorityVote}</p>
+      <p >Majority vote #1 & #2: {majorityVote}</p>
       </div>
     </div>
   );
