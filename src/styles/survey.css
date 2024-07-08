@@ -1,3 +1,8 @@
-.sv-string-viewer {
-  color: gold;
+:root {
+  --complete: #ff8000;
+  --innerform: #000000;
+  --sjs-primary-backcolor: #ff6c22;
+  --sjs-primary-backcolor-dark: #e64a19;
+  --sjs-primary-forecolor: #ffffff;  --sjs-primary-backcolor-light: #ffccbc;
+  --sjs-primary-backcolor-dark: #ff9500;
 };
