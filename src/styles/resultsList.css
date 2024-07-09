@@ -15,10 +15,10 @@ li {
 .list-container  {
   display: flex;
 }
-.color-red { color: rgb(236, 217, 154); }
-.color-yellow { color: rgb(255, 255, 176); }
-.color-green { color: #a2fdd4; }
-.color-blue { color: rgb(141, 194, 241); }
-.color-purple { color: rgb(142, 13, 255); }
-.color-orange { color: rgb(253, 133, 245); }
+.color-red { color: rgb(255, 172, 89); }
+.color-yellow { color: rgb(230, 122, 0); }
+.color-green { color: #824300; }
 .color-magenta { color: rgb(248, 111, 111); }
+.color-purple { color: rgb(142, 13, 255); }
+.color-orange { color: rgb(255, 106, 245); }
+.color-blue { color: rgb(141, 194, 241); }

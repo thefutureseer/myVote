@@ -1,7 +1,7 @@
 'use client';
 import 'survey-core/defaultV2.min.css';
-import '../../styles/survey.css';
 import { Survey } from 'survey-react-ui';
+import '../../styles/survey.css';
 import { Model } from "survey-core";
 import voteJson from "../../data/voteScript";
 const SurveyContainer = () => {
@@ -29,6 +29,8 @@ try {
   console.error('Error saving poll results', error);
 };
 });
-  return <Survey model={survey}/>
+
+  return <Survey  model={survey}/>
+
 };
 export default SurveyContainer;

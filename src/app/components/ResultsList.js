@@ -18,7 +18,7 @@ const ResultsList = ({ results }) => {
      <div className='list-container'>
       <ul>
         {results.map((result, index) => (
-          <li key={result._id}> <h3 className={getColorClass(index)} style={{borderTop: '4px solid gold', background:"#0087ff" }}>{index}</h3>
+          <li key={result._id}> <h3 className={getColorClass(index)} style={{borderTop: '4px solid blue', background:"#0087ff" }}>{index}</h3>
             <pre>{
               Object.entries(result).map(([key, value], i)=>(
                 <div className={`li-div-1 ${getColorClass(i)}`} key={i}>
