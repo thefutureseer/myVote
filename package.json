@@ -32,6 +32,7 @@
     "eslint-config-next": "14.2.3",
     "http": "^0.0.1-security",
     "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
     "mongodb-memory-server": "^9.4.0",
     "supertest": "^7.0.0",
     "text-encoding": "^0.7.0"
